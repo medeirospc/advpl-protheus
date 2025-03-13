@@ -1,2 +1,2 @@
 # AdvPL
-Codando em AdvPL
+Codando em AdvPL para o Protheus.
