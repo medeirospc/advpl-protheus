@@ -8,16 +8,16 @@ User Function Logica01()
 
         Local nEleMesmo := 0
         Local nContDiv  := 0
-        Local nI        := 0
+        Local n1        := 0
         Local cResposta := ""
 
         For nEleMesmo := 1 to 100
         nContDiv := 0
-            For nI := 1 To nEleMesmo
+            For n1 := 1 To nEleMesmo
                 If nEleMesmo % nI == 0
                     nContDiv++
                 EndIf
-            Next nI
+            Next n1
 
             If nContDiv == 2
                 cResposta += cValToChar(nEleMesmo) + CRLF
