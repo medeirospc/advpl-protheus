@@ -10,6 +10,6 @@ Exemplo de primeiro prog em AVPL
 
 User Function TesteTI()
 
-   ChkFile("SZ0")
+   ChkFile("SZ1")
 
 Return Nil
